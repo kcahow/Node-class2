@@ -1,0 +1,28 @@
+{
+  "name": "fse-no2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --import tsx --no-warnings --test ./src/tests/unit.test.mts",
+    "dev": "node --watch -r ts-node/register ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.7",
+    "@types/prettier": "^2.7.3",
+    "prettier": "^3.3.3",
+    "supertest": "^7.0.0",
+    "test": "^3.3.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "ts-node-test": "^0.4.4"
+  }
+}
